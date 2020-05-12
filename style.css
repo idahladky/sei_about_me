@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Suez+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 195, 161);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 24px;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 1em;
+}
+
+a {
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: .75em;
+    margin: auto;
+    padding: 1px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 27em;
+}
+
+h1 {
+    font-family: 'Suez One', serif;    font-weight: bold;
+}
+
+p{
+    padding: .5em 0;
+}
+
+.container {
+    display: right;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-grow: 1;
+    flex-grow: 1;
+    padding: 2em;
+}
+
+form {
+    margin: 2em;
+    padding: 1em;
+    background-color: rgb(250, 223, 199)
+}
+
+.col-6, .col-3 {
+    flex-basis: auto;
+    width: 100%;
+}
+
+.col-6 {
+    flex-basis: 40%;
+}
+
+.col-3 {
+    padding: .25em 0;
+}
+
+input {
+    width: 100%;
+    padding: 2px;
+    line-height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+    padding: 2px;
+    border: 1px rgb(219, 219, 219) solid;
+    line-height: 1.5em;
+}
+
+button {
+    font-size: 1em;
+    padding: .25em 1em;
+    background-color: gray;
+    border-radius: 4px;
+}
+
